@@ -1537,6 +1537,15 @@ input, select, textarea {
 						border-left: 0;
 						border-top: solid 1px #ffffff;
 					}
+					li {
+						display: flex;
+					}
+					.horizontal-list {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						flex-direction: column;
+					}
 
 						#header nav ul li:first-child {
 							border-top: 0;
